@@ -3,7 +3,7 @@ FROM node:8-slim
 WORKDIR /starter
 ENV NODE_ENV development
 
-COPY package.json /starter/package.json
+COPY package.json /starter/package.json 
 
 RUN npm install --production
 
